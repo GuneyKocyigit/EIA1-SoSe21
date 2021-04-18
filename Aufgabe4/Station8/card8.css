@@ -1,0 +1,92 @@
+body{
+    background-image: url("bg.png");
+}
+
+.Karte{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    top: 175px;
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: 0px;
+}
+
+.Pics{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}
+
+.Schleife{
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
+
+.Text{
+    height: 150px;
+    text-align: center;
+    color: black;
+    position: absolute;
+
+}
+
+.muschel1{
+    position: absolute;
+    right: -20px;
+    bottom: -15px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+    animation: anime 10s infinite;
+}
+.muschel2{
+    position: absolute;
+    left: -15px;
+    bottom: -15px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+    animation: animo 7s infinite;
+}.muschel3{
+    position: absolute;
+    right: 15px;
+    bottom: -20px;
+    top: 200px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+    animation: anima 5s infinite;
+}.muschel4{
+    position: absolute;
+    right: 55px;
+    bottom: -15px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+    animation: animi 12s infinite;
+}
+
+@keyframes anime{
+    from {top: 30px;}
+    to {top: 250px;}
+}
+
+@keyframes animo{
+    from {top: 50px;}
+    to {top: 300px;}
+}
+
+@keyframes anima{
+    from {top: 70px;}
+    to {top: 270px;}
+}
+
+@keyframes animi{
+    from {top: 45px;}
+    to {top: 290px;}
+}

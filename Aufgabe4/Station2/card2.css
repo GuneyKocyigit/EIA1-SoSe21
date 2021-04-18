@@ -1,0 +1,82 @@
+body{
+    background-image: url("bg.png");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: center;
+    color: rgb(247, 182, 18);
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+
+.Karte{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    top: 175px;
+}
+
+.Pics{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}
+
+.Muschel1{
+    position: absolute;
+    right: -20px;
+    bottom: -15px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+}
+.Muschel2{
+    position: absolute;
+    left: -15px;
+    bottom: -15px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+}.Muschel3{
+    position: absolute;
+    right: 15px;
+    bottom: -20px;
+    top: 200px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+}.Muschel4{
+    position: absolute;
+    right: 55px;
+    bottom: -15px;
+    transition: color 4s ease-in-out 0s;
+    color: white;
+}
+
+.Perle{
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    
+}
+
+
+.Muschel1:hover{
+    background-image: url("muschel_perle.png");
+
+}
+.Muschel2:hover{
+    background-image: url("muschel_perle.png");
+
+}.Muschel3:hover{
+    background-image: url("muschel_perle.png");
+
+}.Muschel4:hover{
+    background-image: url("muschel_perle.png");
+
+}
+  
+
+.Perle:hover{
+    background-image: url("muschel.png") ;
+
+}

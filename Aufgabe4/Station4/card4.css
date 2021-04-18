@@ -1,0 +1,31 @@
+body{
+    background-image: url("bg4.png");
+}
+
+.Karte{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    top: 175px;
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: 0px;
+}
+
+.formular{
+    position: absolute;
+    color: white;
+    left: 380px;
+}
+
+
+
+
+

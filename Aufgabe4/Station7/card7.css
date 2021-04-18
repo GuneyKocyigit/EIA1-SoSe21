@@ -1,0 +1,33 @@
+body{
+    background-image: url("bg.png");
+}
+
+.Karte{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    top: 175px;
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin: 0px;
+}
+
+.Schleife{
+    position: absolute;
+    right: 150px;
+    bottom: 0px;
+}
+
+.youtube{
+position: relative;
+display: flex;
+top: 12%;
+right: 0%;
+}
