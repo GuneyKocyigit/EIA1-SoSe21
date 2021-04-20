@@ -22,7 +22,9 @@ body{
 .formular{
     position: absolute;
     color: white;
-    left: 380px;
+    left: 550px;
+    text-align: center;
+    align-items: center;
 }
 
 

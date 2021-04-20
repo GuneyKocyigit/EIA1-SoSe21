@@ -61,22 +61,22 @@ p{
 
 
 .Muschel1:hover{
-    background-image: url("muschel_perle.png");
+    content: url("muschel_perle.png");
 
 }
 .Muschel2:hover{
-    background-image: url("muschel_perle.png");
+    content: url("muschel_perle.png");
 
 }.Muschel3:hover{
-    background-image: url("muschel_perle.png");
+    content: url("muschel_perle.png");
 
 }.Muschel4:hover{
-    background-image: url("muschel_perle.png");
+    content: url("muschel_perle.png");
 
 }
   
 
 .Perle:hover{
-    background-image: url("muschel.png") ;
+    content: url("muschel.png") ;
 
 }
