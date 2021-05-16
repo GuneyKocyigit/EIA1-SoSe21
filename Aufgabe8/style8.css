@@ -1,0 +1,87 @@
+html, body{
+    background-color: midnightblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Drumpads und Buttons*/
+#wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 475px;
+    width: 480px;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+#wrapper div{
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    opacity: 80%;
+}
+
+#wrapper div:hover{
+    opacity: 100%;
+}
+
+#wrapper div:active{
+    opacity: 100%;
+}
+
+/*Farben der Pads*/
+#wrapper .padA, .padC, .padF , .padG {
+    background-color: #4937eb;
+}
+
+#wrapper .hihat, .kick, .snare {
+    background-color: #ec3db2;
+}
+
+#wrapper .laugh2, .laugh1 {
+    background-color: #f38123;
+}
+
+/*Buttons*/
+.intButtons {
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    font-size: 300%;
+    color: white;
+}
+
+.intButtons i{
+    margin: 5px;
+}
+
+.intButtons i:hover{
+    opacity: 70%;
+}
+
+#trash:hover {
+    color: red;
+}
+
+.intButtons i:active{
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
+
+.inactive{
+    color: white;
+}
+
+.active{
+    color: red;
+}
+
+.is-hidden{
+    display: none !important;
+}
