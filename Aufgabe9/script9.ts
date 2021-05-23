@@ -108,7 +108,6 @@ function addTask(): void {
     const newTask: Task = {
       content: newContent,
       status: false,
-      color: "white",
       emoji: currentEmoji
     }; //default: unerledigt und ohne Farbe
     allTasks.push(newTask);
